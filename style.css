@@ -1,0 +1,92 @@
+body {
+  background: rgb(203, 151, 245);
+  background: linear-gradient(rgb(207, 149, 255) 35%, rgb(234, 141, 248) 100%);
+  position: relative;
+  font-family: "Work Sans", sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: #020b4e;
+}
+
+.selection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.selecting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.items {
+  background-color: wheat;
+  border-style: none;
+  color: #020b4e;
+  font-size: medium;
+  padding: 0.8em 1.4em;
+}
+
+.items:hover {
+  background-color: #020b4e;
+  color: white;
+  font-style: oblique;
+}
+
+.row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2em;
+}
+
+#result {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+#score {
+  text-align: center;
+  margin: 3em 2em 0em 2em;
+  font-size: x-large;
+}
+
+#finalS {
+  padding: 2em 4em;
+  background-color: #3f52e4;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.5em;
+  border-color: #f8f8f8;
+  display: none;
+  border-style: solid;
+  border-width: 0.4rem;
+}
+#finalScore {
+  color: blanchedalmond;
+}
+#finalBut {
+  padding: 0.4em;
+  margin-top: 0.4em;
+  border-style: none;
+  background-color: white;
+  color: #020b4e;
+  font-style: normal;
+  font-size: medium;
+  text-align: center;
+}
+#finalBut:hover {
+  background-color: #020b4e;
+  color: white;
+  font-style: oblique;
+}
+
+button {
+  border-radius: 0.3em;
+}
